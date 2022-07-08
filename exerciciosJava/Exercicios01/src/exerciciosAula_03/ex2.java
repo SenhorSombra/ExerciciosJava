@@ -17,10 +17,14 @@ public class ex2 {//Faça um programa que entre com três números e coloque em ord
 		System.out.println("Digite o Terceiro numero: ");
 		c = crescente.nextDouble();
 		
-		if ((a < b) && (a < c) && (b < c)) {
+		if ((a < b) && (a < c) && (b < a)) {
 			System.out.println("o valor Crescente é:1°  "+a+" | "+"2°: "+b+" | "+"3°: "+c);
-		}else if((b < a) && (b < c) && (a < c)) {
+		} else if((a < b) && (c < a) && (c < b)) {
+			System.out.println("o valor Crescente é:1°  "+c+" | "+"2°: "+a+" | "+"3°: "+b);
+		}else if((b < a) && (b < c) && (a < c) ) {
 			System.out.println("o valor Crescente é:1°  "+b+" | "+"2°: "+a+" | "+"3°:  "+c);
+		}else if  ((b < a) && (b < c) && (c < a)) {
+			System.out.println("o valor Crescente é:1°  "+b+" | "+"2°: "+c+" | "+"3°:  "+a);			
 		}else {
 			System.out.println("o valor Crescente é:1°  "+c+" | "+"2°: "+b+" | "+"3°:  "+a);
 		}
