@@ -1,0 +1,41 @@
+1- o que são medotos HTTP?
+TAmbem conhecidos como verbos HTTP são responsaveis por implementar Get, post, put e delete.
+
+2- Quais são os metodos HTTP mais utilizados Atualmente?
+Get, post, put e delete.
+
+3- Quais são os 2 principaismetodos de HTTP? Qual é a diferença entre eles?
+os dois Principais são:
+Get que solicita a representação de um recurso especifico e deve retornar apenas dados.
+
+Post é submetido a uma entidade e a um recurso especifico, causando uma mudança no estado do recurso ou efeitos
+colaterais no servidor
+
+4- o que são requisições HTTP? Quais os tipos?
+São Requisições enviadas pelo cliente para iniciar uma ação no servidor. Os tipo Get, head, post, put, delete, connect, options, trace e Patch.
+
+5- como funciona uma requisição? 
+
+é um pedido que o client faz ao servidor dentro desse pedido está um servidor que responde o pedido de dados feito pelo usuario divididos em 3 fases linhas de requisição, cabeçalhos e corpos
+
+6- o que é metodo Get?
+
+é um metodo de requisição feito pelo usuario
+
+7- Qual o protocolo de internet para a tranferencia segura, com o uso de cetificado digital, ultilizando em sites de compas eletronicas?
+é o protocolo HTTPS
+
+8- Quais os principais metodos de uma requisição REST?
+Get, post, put e delete.
+
+9- Qual a diferença entre IPv4 e IPv6?
+O Protocolo de Internet versão 4 possui endereços no padrão 32 bits e sustenta cerca de 4 bilhões de combinações de endereços IP em todo o mundo.
+Já o IPv6 é a versão 6 do Protocolo de Internet, com endereços no padrão 128 bits, permitindo, portanto, cerca de 340 undecilhões de endereços
+
+10- Faça um resumo sobre os seguintes protocolos: http, tcp, ip, udp, smtp e ftp?
+
+HTTP é a sigla para Hypertext Transfer Protocol, que significa Protocolo de Transferência de Hipertexto. Ele é o mais básico e usado para navegação em sites da internet.
+TCP/IP é o acrônimo de dois protocolos combinados: o TCP (Transmission Control Protocol, que significa Protocolo de Controle de Transmissão) e IP (Internet Protocol, que significa Protocolo de Internet).
+FTP é a sigla para File Transfer Protocol, que significa Protocolo de Transferência de Arquivos. Ele surgiu antes mesmo do padrão TCP/IP, que é a base das conexões de internet. E é o modo mais simples de transferir dados entre duas máquinas pela rede.  
+UDP - User Datagram Protocol  é um protocolo de Internet mais simples e sem conexão, no qual os serviços de verificação e recuperação de erros não são necessários. Com o UDP, não há sobrecarga para abrir, manter ou encerrar uma conexão — os dados são continuamente enviados para o destinatário, quer ele os receba ou não.
+O Simple Mail Transfer Protocol (SMTP), ou seja, Protocolo de Transferência de Correio Simples é a tecnologia que permite que e-mails sejam enviados de um servidor para outro até serem entregues na caixa de correio.
