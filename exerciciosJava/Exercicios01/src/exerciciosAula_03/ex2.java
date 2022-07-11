@@ -17,21 +17,26 @@ public class ex2 {//Faça um programa que entre com três números e coloque em ord
 		System.out.println("Digite o Terceiro numero: ");
 		c = crescente.nextDouble();
 		
-		if ((a < b) && (a < c) && (b < c)) {
-			System.out.println("o valor Crescente é:1°  "+a+" | "+"2°: "+b+" | "+"3°: "+c);
-		}else if((a < b) && (a < c) && (c < b)) {
-			System.out.println("o valor Crescente é:1°  "+a+" | "+"2°: "+c+" | "+"3°: "+b);
-		}else if((b < a) && (b < c) && (a < c) ) {
-			System.out.println("o valor Crescente é:1°  "+b+" | "+"2°: "+a+" | "+"3°:  "+c);
-		}else if  ((b < a) && (b < c) && (c < a)) {
-			System.out.println("o valor Crescente é:1°  "+b+" | "+"2°: "+c+" | "+"3°:  "+a);			
-		}else if  ((c < a) && (c < b) && (a < b)) {
-			System.out.println("o valor Crescente é:1°  "+c+" | "+"2°: "+a+" | "+"3°:  "+b);			
-		}else {
-			System.out.println("o valor Crescente é:1°  "+c+" | "+"2°: "+b+" | "+"3°:  "+a);
-		}
+		do {
+			
+			if ((a < b) && (a < c) && (b < c)) {
+				System.out.println("o valor Crescente é:1°  "+a+" | "+"2°: "+b+" | "+"3°: "+c);
+			}else if((a < b) && (a < c) && (c < b)) {
+				System.out.println("o valor Crescente é:1°  "+a+" | "+"2°: "+c+" | "+"3°: "+b);
+			}else if((b < a) && (b < c) && (a < c) ) {
+				System.out.println("o valor Crescente é:1°  "+b+" | "+"2°: "+a+" | "+"3°:  "+c);
+			}else if  ((b < a) && (b < c) && (c < a)) {
+				System.out.println("o valor Crescente é:1°  "+b+" | "+"2°: "+c+" | "+"3°:  "+a);			
+			}else if  ((c < a) && (c < b) && (a < b)) {
+				System.out.println("o valor Crescente é:1°  "+c+" | "+"2°: "+a+" | "+"3°:  "+b);			
+			}else {
+				System.out.println("o valor Crescente é:1°  "+c+" | "+"2°: "+b+" | "+"3°:  "+a);
+			}
+			crescente.close();
+			
+		}while(true);
 		
-		crescente.close();
+		
 	}
 
 }
