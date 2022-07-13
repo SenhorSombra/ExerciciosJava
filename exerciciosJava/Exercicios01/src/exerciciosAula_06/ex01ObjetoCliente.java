@@ -12,7 +12,7 @@ public class ex01ObjetoCliente {
 		
 		
 		cliente.nome = "Daniel";
-		cliente.telefone = (2002-3333);
+		cliente.telefone = (20023333);
 		cliente.nomeEmpresa = "Generation ltda.";
 		
 		

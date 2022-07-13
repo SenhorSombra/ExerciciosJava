@@ -6,7 +6,7 @@ public class ex01ClasseCliente {//Crie uma classe cliente e apresente os atribut
 
 	
 	String nome;
-	double telefone;
+	int telefone;
 	String nomeEmpresa;
 	
 }
